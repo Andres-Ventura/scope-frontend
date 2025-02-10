@@ -1,0 +1,16 @@
+  // Company card
+  .card {
+    background: var(--card-bg);
+    color: var(--text-primary);
+    border-radius: var(--border-radius);
+    padding: 20px;
+    text-align: center;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s ease, background 0.3s ease;
+    cursor: pointer;
+  
+    &:hover {
+      background: var(--card-hover-bg);
+      transform: translateY(-5px);
+    }
+  }

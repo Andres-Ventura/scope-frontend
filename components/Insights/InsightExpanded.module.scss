@@ -1,0 +1,35 @@
+.root {
+
+}
+
+.divMain {
+    border: 1px solid #d9d9d9;
+    border-radius: .5em;
+    background-color: #FFFFFF;
+    width: 40em;
+    padding: 1em;
+}
+
+.button{
+    padding: .25em;
+}
+
+.textBox {
+    border: 2px dashed rgba(10, 10, 237, 0.884);
+    height: 40vh;
+    background-image: radial-gradient(circle at 100% 100%, #ab87e165 0%, rgba(165, 105, 208, 0) 99%);
+    background-color: transparent;
+    background-position: 10% 17%;
+    background-size: 200% 200%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    border-radius: .5em;
+    padding: .25em;
+    overflow-y: scroll;
+}
+
+
+  
+  

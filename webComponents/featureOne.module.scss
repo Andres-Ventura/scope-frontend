@@ -1,0 +1,96 @@
+.root {
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+  }
+  
+  .button{
+    border: none;
+    background-color: transparent;
+    justify-content: flex-start;
+    padding-left: 0em;
+  }
+  
+  .divMain{
+  
+  }
+  
+  .spanMain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .divLeft {
+    margin-left: 5em;
+    margin-right: 1em;
+    width: 50%;
+    margin-right: 2%;
+  }
+  
+  .h1Class{
+    font-size: 2.6em;
+  }
+  
+  .paragraph{
+    font-size: 1.6em;
+  }
+  
+  .divRight {
+    margin-left: 1em;
+    margin-right: 5em;
+    width: 50%;
+    height: 34em;
+  }
+  
+  .divItem{
+    width: 100%;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imgClass {
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 1.5em;
+  }
+  
+  .divLine {
+    width: 100%;
+    height: 2px;
+    background-color: #d9d9d9;
+  }
+  
+  .logoClass {
+    height: 4em;
+    width: 4em;
+  }
+  
+  .divFiles {
+  }
+  
+  .spanGrid {
+    display: flex;
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .spanMain {
+      flex-direction: column; /* Change to column layout */
+      align-items: center; /* Center horizontally */
+    }
+  
+    .divLeft,
+    .divRight {
+      width: 90%; /* Adjust width to fit within the container */
+      max-width: none; /* Remove maximum width limit */
+    }
+  
+    .divRight {
+      margin-top: 2em; /* Add margin at the top */
+    }
+  }
+  

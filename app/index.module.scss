@@ -1,0 +1,230 @@
+.root {
+    .modalOverlay {
+        backdrop-filter: blur(8px);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.startbutton{
+    border: 1px solid #d9d9d9;
+}
+
+.stopbutton{
+    border: 1px solid #d9d9d9;
+    margin-left: 1em;
+}
+
+
+.divMain {
+    width: calc(100% - 2em); /* Adjusted width to accommodate margins */
+    height: 100vh;
+    overflow-x: hidden; /* Hides horizontal overflow */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.divTimeTrack {
+    margin-top: 1em;
+    width: 100%;
+    height: 100%;
+    border: 1.5px solid #d9d9d9;
+    border-radius: .5em;
+
+}
+
+.timetrackContainer{
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.spanTimeTrack{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: .5em;
+}
+
+.spanTimeTrackRight{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: .4em;
+    margin-left: .4em;
+    width: 50%;
+}
+
+.h4Complete{
+    font-size: 1em;
+    margin-right: 1.75em;
+}
+
+.h4TimeLeft{
+    font-size: 1em;
+    margin-right: .2em;
+}
+
+.h4TimeTrack{
+    font-size: 1em;
+}
+
+
+.divUserProfile{
+
+}
+
+.profilePicture{
+    border: 1.5px solid #d9d9d9;
+    border-radius: 10em;
+    width: 2em;
+    height: 2em;
+}
+
+.profileName{
+    font-size: 1.25em;
+}
+
+.microphoneSelect{
+    border: 1px solid #d9d9d9;
+}
+
+.spanUserProfile{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+.divInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.serverStatusButton{
+    border: 1px solid #d9d9d9;
+    border-radius: .25em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.serverStatusSpan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8em;
+}
+
+.spanTimeTrackLeft{
+   
+}
+
+.transcriptionText{
+    color: grey;
+    margin: .25em;
+    width: 100%;
+    height: 100%;
+}
+
+.divLeft {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    margin-right: 0.5em; /* Added margin to the right section */
+}
+
+.divRight {
+    width: 50%;
+    height: calc(100% - 2em); /* Adjusted height to accommodate top and bottom margins */
+    margin-left: 0.5em; /* Added margin to the left section */
+    border: 1.5px solid #d9d9d9;
+    border-radius: 0.5em;
+    overflow-y: auto; /* Enables vertical scrolling if content overflows */
+    margin-top: 1em; /* Added top margin */
+    margin-bottom: 1em; /* Added bottom margin */
+    display: flex; /* Added display flex */
+    flex-direction: column; /* Set flex-direction to column */
+    justify-content: space-between; /* Align items to the bottom */
+}
+
+.divTopLeft{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.settingsButton{
+
+}
+
+.divBottomLeft{
+    flex: 1; /* Fill remaining vertical space */
+    margin-bottom: 2em;
+}
+
+.divBottomRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .25em;
+    margin-top: auto; /* Stick to the bottom */
+}
+
+.h5ClassRight{
+    font-size: 1.25em;
+    margin-left: .50em;
+    margin-top: .50em;
+}
+
+.transcriptionBox {
+    border: 2px dashed rgba(10, 10, 237, 0.884);
+    height: 40vh;
+    background-image: radial-gradient(circle at 100% 100%, #ab87e165 0%, rgba(165, 105, 208, 0) 99%);
+    background-color: transparent;
+    background-position: 10% 17%;
+    background-size: 200% 200%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    background-clip: border-box;
+    border-radius: .5em;
+    overflow-y: scroll;
+}
+
+.spanInput{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    border: 1px solid #d9d9d9;
+    border-radius: 1em;
+}
+
+.spanInputInput{
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+    margin-left: .5em;
+}
+
+.spanInputButton{
+    margin: .5em;
+    width: 2.5em;
+    height: 2.5em;
+    background-color: blue;
+    border-radius: .5em;
+    color: white;
+}
+
+
+.insightContainer{
+    overflow-y: scroll;
+}

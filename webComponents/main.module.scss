@@ -1,0 +1,69 @@
+.root {
+   
+    
+  }
+  
+  .divMain {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3em;
+  }
+  
+  .divUnderMain {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3em;
+  }
+  
+.mainClass{
+  width: 60%;
+  border: 1px solid #d9d9d9;
+  border-radius: .25em;
+}
+
+
+.mainText{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+  text-align: center;
+  width: 60%;
+}
+
+.mainTextDiv{
+  display: flex;
+  justify-content: center;
+ 
+  
+}
+
+
+.mainPhrase{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  text-align: center;
+  width: 60%;
+}
+
+.demoButton{
+  border: 1px solid #d9d9d9;
+  border-radius: .25em;
+  padding: .35em;
+  margin: 1em;
+}
+
+.contactButton{
+  border: 1px solid #d9d9d9;
+  border-radius: .25em;
+  padding: .35em;
+  margin: 1em;
+}
+
+
+.divUnderMain{
+  display: flex;
+  justify-content: center;
+}

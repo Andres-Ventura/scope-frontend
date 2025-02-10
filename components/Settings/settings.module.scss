@@ -1,0 +1,29 @@
+.settings-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.button:nth-child(1) { background-color: #28a745; color: white; } /* Add */
+.button:nth-child(2) { background-color: #dc3545; color: white; } /* Delete */
+.button:nth-child(3) { background-color: #ff9800; color: white; } /* Purge All */
+.button:nth-child(4) { background-color: #007bff; color: white; } /* Re-run Scraper */

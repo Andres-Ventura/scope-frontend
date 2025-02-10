@@ -1,0 +1,65 @@
+
+  
+  .root {
+    display: flex;
+    height: 100vh;
+   
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #d9d9d9;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profileSection {
+    margin-bottom: 20px;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .menu li {
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--sidebar-text);
+    transition: background 0.3s ease, color 0.3s ease;
+    border-radius: var(--border-radius);
+    border: none;
+    background-color: #f0f0f0; /* Default background */
+    margin: 5px 0;
+}
+
+.menu li:hover {
+    background-color: #ccc; /* Hover effect */
+    color: black;
+}
+
+.menu li:active {
+    background-color: #aaa; /* Click effect */
+}
+
+.menu .activeTab {
+    background-color: #007bff; /* Blue background for selected tab */
+    color: white;
+    font-weight: bold;
+}
+
+
+  
+  .mainContent {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+  

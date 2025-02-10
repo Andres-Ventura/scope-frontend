@@ -1,0 +1,41 @@
+
+root {
+}
+  
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  
+
+  .imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  // Logo styling
+  .logo {
+    border-radius: 50%;
+    border: 3px solid var(--text-secondary);
+  }
+  
+  // Company name
+  .name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  // Description
+  .description {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.4;
+  }
+  

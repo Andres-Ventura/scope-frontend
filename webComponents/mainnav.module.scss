@@ -1,0 +1,81 @@
+.root {
+    display: flex;
+    justify-content: center;
+}
+
+.divMain {
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    background-color: #ffffff;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    height: 4.25em;
+}
+
+.h2class{
+    color: rgb(0, 0, 0);
+    font-size: 1.8em;
+}
+
+.spanMain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.divLeft {
+    margin-left: 2em;
+    display: flex;
+    align-items: center;
+   
+}
+
+.divRight {
+    margin-right: 2em;
+}
+
+.divCenter {
+    display: flex;
+    align-items: center;
+}
+
+.logoClass {
+    width: 3em;
+    height: 3em;
+}
+
+.waitlistButton {
+    background-color: #233cec;
+    border: none;
+    border-radius: .5em;
+    font-size: 1.2em;
+    color: white;
+    padding-top: .3em;
+    padding-bottom: .3em;
+    padding-left: .65em;
+    padding-right: .65em;
+    margin: .5em;
+}
+
+.buttonLogin {
+    margin: .5em;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2em;
+}
+
+.buttonDemo{
+    margin: .5em;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2em;
+    border: 2px solid #233cec;
+    border-radius: .15em;
+    padding-top: .25em;
+    padding-bottom: .25em;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
