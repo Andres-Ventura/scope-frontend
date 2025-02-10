@@ -1,0 +1,42 @@
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.cardContent {
+  text-align: center;
+  padding: 12px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.2s ease-in-out;
+  cursor: pointer;
+
+  &.primary {
+    background: #4f46e5;
+    color: white;
+  }
+
+  &.destructive {
+    background: #e11d48;
+    color: white;
+  }
+
+  &:hover {
+    opacity: 0.9;
+  }
+}

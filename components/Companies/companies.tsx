@@ -45,8 +45,8 @@ export const CompanyGrid: React.FC = () => {
 
   return (
     <div className={styles.grid}>
-      {companies.map((company) => (
-        <CompanyCard key={company.id} {...company} />
+      {companies.map((company, index) => (
+        <CompanyCard key={company.id} business_id={index + 1} {...company} />
       ))}
     </div>
   );
